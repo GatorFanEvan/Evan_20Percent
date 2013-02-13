@@ -1,0 +1,13 @@
+class Receiver extends Player{
+  
+  protected int speed;
+  protected int catching;
+  protected int jumping;
+  
+  public Receiver(int speed, int catching, int jumping){
+    super();
+    this.speed = speed;
+    this.catching = catching;
+    this.jumping = jumping;
+  }
+}

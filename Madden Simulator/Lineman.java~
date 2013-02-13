@@ -1,0 +1,9 @@
+class Lineman extends Player{
+  
+  protected int blocking;
+  
+  public Lineman(int blocking){
+    super();
+    this.blocking = blocking;
+  }
+}

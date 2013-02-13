@@ -1,0 +1,24 @@
+class Quarterback extends Player{
+  
+  protected int throwPower;
+  protected int throwAccuracy;
+  protected int awareness;
+  protected int quarterbackVision;
+  
+  public Quarterback(int throwPower, int throwAccuracy, int awareness, int quarterbackVision){
+    super();
+    this.throwPower = throwPower;
+    this.throwAccuracy = throwAccuracy;
+    this.awareness = awareness;
+    this.quarterbackVision = quarterbackVision;
+  }
+  
+  public void pass(){
+  }
+  
+  public void scramble(){
+  }
+  
+  public void snap(){
+  }
+}

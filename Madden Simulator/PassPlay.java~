@@ -1,0 +1,9 @@
+class PassPlay extends Play{
+  
+  protected int numRoutes;
+  protected char routeType;
+  
+  public PassPlay(int numRoutes){
+    char type = 'p';
+  }
+}

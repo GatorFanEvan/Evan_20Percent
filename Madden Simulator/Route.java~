@@ -1,0 +1,10 @@
+class Route{
+  
+  protected char type;
+  protected Receiver x;
+  
+  public Route(char type, Receiver x){
+    this.type = type;
+    this.x = x;
+  }
+}
